@@ -1,5 +1,5 @@
-step,object,page,x,y,zoom,clip_start,clip_end,loop,alt_text,question,answer,layer1_button,layer1_content,layer2_button,layer2_content
-#,object_id from the objects tab,for multi-page items,horizontal position 0-1 (0.5 = center),vertical position 0-1 (0.5 = center),(1.0 = full image),"Start time for video/audio clips, e.g. ""1:30"" (m:ss) or ""90"" (seconds)",End time for video/audio clips,yes to loop the clip,"Describe what is visible in this zoomed view for screen readers. If empty, the object's image description is used.",Heading for this step,Brief 1-2 sentence text,"Optional button text (default: ""Learn more"")","Panel content: write text here, paste markdown, or enter path to .md file (e.g. your-story/file.md)","Optional second button text (default: ""Go deeper"")","Second panel: write text here, paste markdown, or enter path to .md file"
-1,telar-placeholder,,,,,,,,,question,answer,,,,
-2,telar-placeholder,,,,,,,,,question,answer,,,,
-3,telar-placeholder,,,,,,,,,question,answer,,,,
+step,object,x,y,zoom,page,question,answer,alt_text,layer1_button,layer1_content,layer2_button,layer2_content,clip_start,clip_end,loop
+paso,objeto,x,y,zoom,pagina,pregunta,respuesta,texto_alt,boton1,contenido1,boton2,contenido2,inicio_clip,fin_clip,bucle
+1,cihualyaomiquiz-the-jaguarimages0,0.5014766636016283,0.5142929933624621,1.08,,What am I look at?,This is a comic book created in response to the passing of Proposition 187. The comic was created in order to advocate for the rights of immigrants.,,Learn more,blank_template-what-was-proposition.md,,,,,
+2,cihualyaomiquiz-the-jaguarimages7,0.5,0.5,1,,What was the comic about?,"In The Jaguar we follow the story of Linda Rivera, a law student and superhero, who fights against a rising tide of white supremacy, corporate greed, and racial profiling.",,,,,,,,
+3,cihualyaomiquiz-the-jaguarimages3,0.5,0.5,1,,What did the comic advocate for?,"The comics primary purpose was to advocate for the rights of people of color, especially considering the racial profiling which was enabled by Proposition 187",,,,,,,,
